@@ -2,6 +2,7 @@ package Task_1;
 
 public class Cat {
 
+    
     private String name;
     private int age;
 
@@ -23,10 +24,12 @@ public class Cat {
 
     public Cat(String name, int age){
         this.age = age;
-        this.name = name;
+        this.name = name;        
     }
-
+    
     public void Greeting(){
         System.out.printf("Hi! My name is <%s> and i am <%d> years old! \n", name, age);
     }
+
+    
 }
